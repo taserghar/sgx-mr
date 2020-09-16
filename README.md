@@ -1,5 +1,5 @@
 # SGX-MR
-SGX-MR is a prototype of the paper [SGX-MR: Regulating Dataflows for Protecting Access Patterns of Data-Intensive SGX Applications](https://arxiv.org/abs/2009.03518).
+SGX-MR is a prototype of the paper [SGX-MR: Regulating Dataflows for Protecting Access Patterns of Data-Intensive SGX Applications](https://arxiv.org/abs/2009.03518). For now, we are only providing the binaries. We will upload the source code in future.
 
 Prototype binaries are provided to test the sample applications described in the paper. 
 * KMeans
@@ -27,4 +27,3 @@ Here, First and second parameters are four generating the block data. For KMeans
 
 Make sure the data directory along with its sub-directories are also download if using default parameters.
 
-We will upload the source code in future.
