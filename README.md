@@ -13,6 +13,7 @@ SGX-MR is built on top of intel SGX SDK. To run SGX-MR, it is mandetory to insta
 SGX-MR was built, tested and upload for below configuration:
 * 64-bit Ubuntu 18.04.1 LTS (4.15.0 Kernel)
 * gcc version 7.5.0
+
 Please ensure the OS and gcc version before testing.
 
 # Testing
@@ -26,3 +27,4 @@ Here, First and second parameters are four generating the block data. For KMeans
 
 Make sure the data directory along with its sub-directories are also download if using default parameters.
 
+We will upload the source code in future.
