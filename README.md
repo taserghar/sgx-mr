@@ -26,4 +26,3 @@ For both Hardware and Simulation mode, a companion shell script (run_sgx-mr.sh) 
 Here, First and second parameters are four generating the block data. For KMeans we generate synthesized data. On the other hand, we used yelp dataset to generate block data for WordCount as we mentioned in the paper. To download yelp data set please visit: https://www.kaggle.com/yelp-dataset/yelp-dataset. In this dataset we set review.json as default input-text. In case of using other text input for wordcount problem, please change the path in the script.
 
 Make sure the data directory along with its sub-directories are also download if using default parameters.
-
