@@ -23,6 +23,6 @@ For both Hardware and Simulation mode, a companion shell script (run_sgx-mr.sh) 
 * kmeans-run
 * wc-run
 
-Here, the First and second parameters are for generating the encrypted block data. For KMeans we generate synthesized data. On the other hand, we used yelp dataset to generate block data for WordCount, as we mentioned in the paper. To download yelp data set, please visit: https://www.kaggle.com/yelp-dataset/yelp-dataset. In this dataset, we set review.json as the default input-text. In case of using other text input for wordcount problem, please change the path in the script.
+Here, the First and second parameters are for generating the encrypted block data. For KMeans we generate synthesized data. On the other hand, we used yelp dataset to generate block data for WordCount, as we mentioned in the paper. To download yelp data set, please visit: https://www.kaggle.com/yelp-dataset/yelp-dataset. In this dataset, we set review.json as the default input-text. In case of using other text input for wordcount problem, please change the path in the script. Make sure that input text contains the sufficient data that matches the block size times block count.
 
 Make sure the data directory and its sub-directories are also download if using default parameters.
